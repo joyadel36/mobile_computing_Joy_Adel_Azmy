@@ -1,3 +1,5 @@
+import 'package:ass_one/ass1.dart';
+import 'package:ass_one/ass2_HBD_card.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,14 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Scaffold(
-        appBar:AppBar(
-          title: Text("First Application"),
-          centerTitle: true,
-          backgroundColor: Colors.purple,
-        ) ,
-        body:Center(child: Text("Joy Adel",style: TextStyle(fontSize: 25),),) ,
-      )
+      home:birthdaycard()
     );
   }
 }
