@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Baslketball extends StatefulWidget{
+class Basketball extends StatefulWidget{
   @override
-  State<StatefulWidget> createState() =>_Baslketballstate();
+  State<StatefulWidget> createState() =>_Basketballstate();
 
 }
-class _Baslketballstate extends State<Baslketball>{
+class _Basketballstate extends State<Basketball>{
   int teamAPoints=0;
   int teamBPoints=0;
 
